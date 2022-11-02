@@ -1,17 +1,17 @@
 describe('group 1', () => {
   beforeAll(() => {
-    console.log('beforeAll');
+    // console.log('beforeAll');
     // up db
   });
   afterAll(() => {
-    console.log('afterAll');
+    // console.log('afterAll');
     // down  db
   });
   beforeEach(() => {
-    console.log('each');
+    // console.log('each');
   });
   afterEach(() => {
-    console.log('after each');
+    // console.log('after each');
   });
   test('case 1', () => {
     expect(1 + 1).toBe(2);
